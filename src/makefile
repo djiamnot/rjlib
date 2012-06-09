@@ -4,7 +4,7 @@ current:
 clean: ; rm -f *.pd_linux *.pd_darwin *.pd_win *.o
 
 SOURCES = $(shell ls *.c)
-INCLUDES = -I../ -I../../extralibs/local/include
+INCLUDES = -I../ -I../../extralibs/local/include -I/usr/include/pdextended
 
 # ----------------------- LINUX i386 -----------------------
 
